@@ -20,7 +20,10 @@ var swiper = new Swiper('.swiper-container', {
       clickable: true,
     },
     navigation: {
-        nextEl: '.testimonial-left__buttons .btn_prev',
-        prevEl: '.testimonial-left__buttons .btn_next',
+        nextEl: '.testimonial-left__buttons .btn_next',
+        prevEl: '.testimonial-left__buttons .btn_prev',
     },
+    button: {
+      DownloadCV: 'https://drive.google.com/file/d/18Gs1Z7y9SE7FNxP0Zd-4s8gYtu5ks6Yl/view?usp=share_link'
+    }
   });
